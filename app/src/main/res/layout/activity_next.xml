@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/FIROES_splashbackground"
+    android:background="@drawable/firoes_splashbackground"
     tools:context=".NextActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
