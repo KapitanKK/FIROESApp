@@ -98,8 +98,11 @@
         android:text="Spanish Era"
         android:textColor="@color/black"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="27dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033" />
 
     <TextView
         android:id="@+id/textView7"
@@ -109,8 +112,12 @@
         android:text="American Era"
         android:textColor="@color/black"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="204dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
 
     <Button
         android:id="@+id/button"
