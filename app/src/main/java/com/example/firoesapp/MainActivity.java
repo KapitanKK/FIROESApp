@@ -14,7 +14,5 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setIcon(R.drawable.baseline_bedtime_24);
         setContentView(R.layout.activity_main);
 
-            }
-        }
     }
 }
