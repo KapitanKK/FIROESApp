@@ -13,15 +13,17 @@ public class NextActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_next);
-        h.postDelayed(() -> {
-            Intent a = new Intent( NextActivity.this, MainActivity.class);
-            startActivities(a);
-            finish();
+        h.postDelayed(new Runnable() {
+            @Override
+            public void run() {
 
+                Intent i = new Intent(NextActivity.this, MainActivity.class);
+                startActivities(i);
+                finish();
+            }
         }, 5000);
-
     }
 
-    private void startActivities(Intent a) {
+    private void startActivities(Intent i) {
     }
 }
