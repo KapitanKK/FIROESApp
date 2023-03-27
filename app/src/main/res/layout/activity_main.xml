@@ -40,7 +40,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.391"
-        android:src="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -64,7 +64,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.096"
-        tools:srcCompat="@drawable/antonio_luna_small" />
+        android:src="@drawable/antonio_luna_small" />
 
     <ImageView
         android:id="@+id/imageView5"
