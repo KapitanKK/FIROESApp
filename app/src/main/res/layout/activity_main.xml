@@ -76,7 +76,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.096"
-        tools:srcCompat="@drawable/jose_rizal_full_jpg" />
+        android:src="@drawable/jose_rizal_full_jpg" />
 
     <Button
         android:id="@+id/button"
