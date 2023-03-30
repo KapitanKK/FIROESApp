@@ -86,16 +86,17 @@
         android:layout_width="42dp"
         android:layout_height="88dp"
         android:layout_marginStart="4dp"
-        android:text="Next"
+        android:text="&gt;"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ViewFlipper"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.182" />
+
     <Button
         android:id="@+id/prev1"
         android:layout_width="42dp"
         android:layout_height="88dp"
-        android:text="Back"
+        android:text="&lt;"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ViewFlipper"
         app:layout_constraintHorizontal_bias="0.615"
